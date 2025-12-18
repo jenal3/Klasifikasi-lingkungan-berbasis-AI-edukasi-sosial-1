@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Lingkungan Berbasis AI - Edukasi Sosial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Overlay Unik -->
+    <div class="overlay"></div>
+
+    <!-- Header Menu (disembunyikan awal) -->
+    <div class="header" id="header" style="display: none;">
+        <button class="menu-btn" onclick="toggleMenu()">⋮⋮⋮</button>
+        <div class="menu" id="menu">
+            <a href="#" onclick="goToLogin()">Kembali ke Halaman Utama</a>
+            <a href="#" onclick="logout()">Logout</a>
+        </div>
+    </div>
+
+    <!-- Halaman Login -->
+    <div class="login-page" id="loginPage">
+        <div class="login-card">
+            <h1>🌍 AI Lingkungan</h1>
+            <p>Silahkan login untuk mengakses materi edukasi</p>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username (contoh: zainal, farel)">
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <button class="login-btn" onclick="login()">Masuk</button>
+            <div class="error" id="errorMsg">Username atau password salah!</div>
+        </div>
+    </div>
+
+    <!-- Halaman Konten -->
+    <div class="content-page" id="contentPage" style="display: none;">
+        <div class="hero-section">
+            <h1>Klasifikasi Lingkungan Berbasis AI + Edukasi Sosial</h1>
+            <p>Platform pembelajaran interaktif untuk kesadaran lingkungan modern</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Pengertian Klasifikasi Lingkungan Berbasis AI</h2>
+            <div class="image-container">
+                <div class="image-placeholder">
+                    🧠 AI Mengklasifikasi Sampah Otomatis
+                </div>
+            </div>
+            <p>Klasifikasi lingkungan berbasis AI merupakan pendekatan modern dalam pengelolaan lingkungan hidup yang memanfaatkan kecerdasan buatan untuk mengidentifikasi, mengkategorikan, dan menganalisis berbagai elemen lingkungan secara otomatis dan akurat. Sistem ini mengintegrasikan teknologi machine learning, computer vision, dan deep learning untuk memproses data visual, sensorik, dan spasial guna mendeteksi jenis sampah, tingkat polusi, kerusakan ekosistem, serta pola perilaku manusia terhadap lingkungan.</p>
+            <p>Pendekatan ini tidak hanya meningkatkan efisiensi pengelolaan limbah hingga 90% tetapi juga membuka peluang edukasi sosial yang masif melalui platform digital interaktif yang dapat diakses oleh masyarakat luas. Melalui aplikasi mobile, website edukasi, dan sistem monitoring real-time, AI memungkinkan visualisasi data lingkungan yang mudah dipahami bahkan oleh anak-anak usia dini.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Ciri-Ciri Utama Sistem AI Lingkungan</h2>
+            <div class="image-container">
+                <div class="image-placeholder">
+                    📊 Dashboard Monitoring Lingkungan Real-time
+                </div>
+            </div>
+            <ul>
+                <li><strong>Otomatisasi Penuh:</strong> Sistem bekerja 24/7 tanpa intervensi manusia</li>
+                <li><strong>Akurasi Tinggi:</strong> Mencapai 92-98% dalam pengenalan objek lingkungan</li>
+                <li><strong>Skalabilitas:</strong> Dari rumah tangga hingga kota metropolitan</li>
+                <li><strong>Integrasi IoT:</strong> Terhubung dengan sensor dan kamera CCTV</li>
+                <li><strong>Edukasi Interaktif:</strong> Gamifikasi, quiz, dan simulasi VR</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Cara Kerja Sistem Klasifikasi AI</h2>
+            <div class="image-container">
+                <div class="image-placeholder">
+                    🔄 Proses Machine Learning Lingkungan
+                </div>
+            </div>
+            <p>Sistem bekerja melalui 4 tahap: data collection (kamera + sensor), preprocessing (augmentasi gambar), training model (YOLOv8 + ResNet), dan deployment (real-time inference &lt;50ms). Feedback loop dari komunitas terus meningkatkan akurasi model.</p>
+        </div>
+
+        <div class="footer-info">
+            ℹ️ Info lebih lanjut hubungi: <strong>085655703937</strong>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
