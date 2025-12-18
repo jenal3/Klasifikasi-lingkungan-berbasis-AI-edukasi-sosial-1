@@ -1,1 +1,0 @@
-# Klasifikasi-lingkungan-berbasis-AI-edukasi-sosial-1
